@@ -1,0 +1,114 @@
+*{
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: rgb(20, 18, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainDiv{
+    /* border: 1px solid red; */
+    height: 80vh;
+    width: 50vw;
+}
+
+.mainDiv{
+    text-align: center;
+    color: white;
+}
+
+.addInput{
+    /* border: 1px solid green; */
+    width: 20rem;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.addInput input{
+
+    height: 2rem;
+    width: 15rem;
+    border: 3px solid rgb(14, 122, 90);
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: initial;
+}
+
+.addInput input:focus{
+    outline: none;
+}
+
+.addInput button{
+
+    height: 2.4rem;
+    width: 2.5rem;
+    font-size: 1.2rem;
+    background-color: tomato;
+    border: none;
+    border-radius: 10px;
+    transition: all ease-in .2s;
+}
+
+.addInput button:hover{
+    
+    background-color: rgb(4, 247, 113);
+    color: white;
+    cursor: pointer;
+}
+
+.todosList{
+    /* border: 1px solid red; */
+    width: 20rem;
+    margin: 0 auto;
+    padding: .5rem;
+    background-color: tomato;
+    color: black;
+    font-weight: bold;
+    border-radius: 12px;
+    margin-top: 1rem;
+    
+}
+
+.todosList ul li{
+    list-style: none;
+    text-align: left;
+}
+
+.todosList ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todosList ul i{
+
+    color: gainsboro;
+    font-size: 1.3rem;
+    transition: all ease-in .2s;
+    cursor: pointer;
+}
+
+.todosList ul i:hover{
+
+    color: red;
+}
+
+.todoLisOuter{
+    /* border:1px solid green; */
+    height:55vh;
+    overflow-y: scroll;
+}
+
+.todoLisOuter::-webkit-scrollbar{
+    width: 0px !important;
+}
