@@ -66,7 +66,7 @@ function Todos() {
     return (
 
         <div className='mainDiv'>
-            <h1>My TODO's</h1>
+            <h1>Felix TODO's</h1>
             <div className='addInput'>
                 <input type={"text"} 
                 value={todo}
